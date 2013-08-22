@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="pressedContent">#ccdff0</drawable>
+    <drawable name="pressedHeader">#706e70</drawable>
+
+</resources>
