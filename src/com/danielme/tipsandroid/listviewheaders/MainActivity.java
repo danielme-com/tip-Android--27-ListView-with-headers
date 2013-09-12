@@ -44,7 +44,7 @@ public class MainActivity extends ListActivity
 					Toast.makeText(MainActivity.this, ((Header) item).getTitle(), Toast.LENGTH_SHORT).show();
 					// back to header, see
 					// http://danielme.com/tip-android-17-listview-back-to-top-volver-al-inicio/
-					if (Build.VERSION.SDK_INT < 11)
+					if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB)
 					{
 						getListView().setSelection(position);
 					}
